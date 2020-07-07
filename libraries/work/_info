@@ -1,0 +1,955 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 dE:\svn\fpga_v02\sim\sh_quota_sim
+vAfterCloseTradingMarket
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 `nVZ_7Z9eEI@1Io9zL0IX2
+I@AHL6<heQHjX]h`BF<0:[1
+Z2 dD:/code/NanoExp_fpga_202000327/001_develop/100_sim/sz_quota_sim
+w1591079198
+8../../001_rtl/300_service_layer/sz_mkt_decode/AfterCloseTradingMarket.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/AfterCloseTradingMarket.v
+Z3 L0 18
+Z4 OL;L;10.4;61
+Z5 !s108 1592550982.097000
+Z6 !s107 ../../001_rtl/300_service_layer/sz_mkt_decode/mkt_recognize.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_index.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_z.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_param.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_n.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_inst.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_app_reg.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_analysis_inst.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_analysis.v|../../001_rtl/300_service_layer/sz_mkt_decode/generate_for.v|../../001_rtl/300_service_layer/sz_mkt_decode/QuotExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/QuotEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/ProExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/ProEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/LendExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/LendEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/IndexMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTradingMarket_v1.v|../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTradingMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTardingRegroup.v|../../001_rtl/300_service_layer/sz_mkt_decode/AfterCloseTradingMarket.v|
+Z7 !s90 -reportprogress|300|../../001_rtl/300_service_layer/sz_mkt_decode/AfterCloseTradingMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTardingRegroup.v|../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTradingMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTradingMarket_v1.v|../../001_rtl/300_service_layer/sz_mkt_decode/IndexMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/LendEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/LendExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/ProEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/ProExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/QuotEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/QuotExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/generate_for.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_analysis.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_analysis_inst.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_app_reg.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_inst.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_n.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_param.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_z.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_index.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_recognize.v|
+!i113 0
+Z8 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@after@close@trading@market
+vAuctionTradingMarket
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 9fPOd@Mzl^lBHZ19CMd_92
+IjBDUH6DjVfa3^R3?MhGL?2
+R2
+w1591853585
+8../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTradingMarket_v1.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTradingMarket_v1.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+n@auction@trading@market
+vdec2hex
+V]fXH`e9lgil`c^<hdWE3R1
+r1
+31
+I<1[7OWW`>2YnJ2cLFGZbQ3
+R0
+w1510021588
+8../../src/sh_quota/step/dec2hex.v
+F../../src/sh_quota/step/dec2hex.v
+R3
+Z9 OE;L;10.1c;51
+R8
+!s100 iQbBZNBWWj71HdbdkPdNP0
+!s90 ../../src/sh_quota/step/dec2hex.v|
+!s108 1513401610.989000
+!s107 ../../src/sh_quota/step/dec2hex.v|
+!s85 0
+!i10b 1
+vdec2hex_1cycle
+Vb9_^EUmbWT@`FhiliMdP43
+r1
+31
+If7QJ5aLdkP@ERRRnL2WTY3
+R0
+w1510021617
+8../../src/sh_quota/step/dec2hex_1cycle.v
+F../../src/sh_quota/step/dec2hex_1cycle.v
+R3
+R9
+R8
+!s100 ]`=A`jkJA6VhDkW^3cmBA3
+!s90 ../../src/sh_quota/step/dec2hex_1cycle.v|
+!s108 1513401611.314000
+!s107 ../../src/sh_quota/step/dec2hex_1cycle.v|
+!s85 0
+!i10b 1
+vdecode_ctl
+V==BK>TB^72GXRIjON=hEB3
+r1
+31
+ISOV2109>n_BHBE>QUcoR53
+R0
+Z10 w1513219132
+8../../src/sh_quota/fast/decode_ctl.v
+F../../src/sh_quota/fast/decode_ctl.v
+Z11 L0 20
+R9
+R8
+!s100 @k1m8V9GDie3G;WcU@MJE3
+!s90 ../../src/sh_quota/fast/decode_ctl.v|
+!s108 1513401615.118000
+!s107 ../../src/sh_quota/fast/decode_ctl.v|
+!s85 0
+!i10b 1
+vdet_pn_edge
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 m`^z>NUX<9l?Eloj;<fFR1
+I7fUi[:GVzdSU>@JiSOH:?3
+R2
+w1540549003
+8../../001_rtl/001_top/det_pn_edge.v
+F../../001_rtl/001_top/det_pn_edge.v
+L0 1
+R4
+!s108 1592807657.151000
+!s107 ../../001_rtl/001_top/det_pn_edge.v|
+!s90 -reportprogress|300|../../001_rtl/001_top/det_pn_edge.v|
+!i113 0
+R8
+vfast_addr_zero
+IXhHflKl[i^j4md7?9;@h01
+VZ`mMfglBQ>AeD=OT9J0I00
+R0
+w1510542905
+8../../src/sh_quota/fast/fast_addr_zero.v
+F../../src/sh_quota/fast/fast_addr_zero.v
+L0 1
+R9
+r1
+31
+R8
+!s100 ?OLbK00ooTfaP[aScE6j82
+!s90 ../../src/sh_quota/fast/fast_addr_zero.v|
+!s108 1513401615.779000
+!s107 ../../src/sh_quota/fast/fast_addr_zero.v|
+!i10b 1
+!s85 0
+vfast_analysis
+VI]=oiUf?GmN^<=oNTHf;N2
+r1
+31
+I>>>@`E[Vi8<S]m1z_P9@f1
+R0
+R10
+8../../src/sh_quota/fast/fast_analysis.v
+F../../src/sh_quota/fast/fast_analysis.v
+R11
+R9
+R8
+!s100 d4:lzbz``C[Wj<34EdMNL2
+!s90 ../../src/sh_quota/fast/fast_analysis.v|
+!s108 1513401612.809000
+!s107 ../../src/sh_quota/fast/fast_analysis.v|
+!s85 0
+!i10b 1
+vfast_decode
+I1laH6R:^H=XkgNcX7M[@Z2
+VzON=GJa^eZLIY]Yd9IXEI2
+R0
+w1511492132
+8../../src/sh_quota/fast/fast_decode.v
+F../../src/sh_quota/fast/fast_decode.v
+R11
+R9
+r1
+31
+R8
+!s100 fMk]dBkUPkUb@PL0`nP@o1
+!s90 ../../src/sh_quota/fast/fast_decode.v|
+!s108 1513401613.887000
+!s107 ../../src/sh_quota/fast/fast_decode.v|
+!i10b 1
+!s85 0
+vfast_dram72x1024
+VE>]V;aj[c819lK1`2^fAa3
+r1
+31
+IaWg2Ml@40=zJHW_hJWSZI3
+R0
+Z12 w1510021390
+8../..//ipcore/fast_dram72x1024.v
+F../..//ipcore/fast_dram72x1024.v
+Z13 L0 40
+R9
+R8
+!s100 =X8]@S3`>K5e14f7T`bg40
+!s90 ../..//ipcore/fast_dram72x1024.v|
+!s108 1510046978.514000
+!s107 ../..//ipcore/fast_dram72x1024.v|
+!s85 0
+!i10b 1
+vfast_ram72x512
+VX:Z:_WM6G3MeS2FGBioC50
+r1
+31
+IP:XO;F5J?`>[2PG;WFK@b3
+R0
+Z14 w1510045332
+8../../ipcore/fast_ram72x512.v
+F../../ipcore/fast_ram72x512.v
+R13
+R9
+R8
+!s100 VHeJTCaDGDJj5Y7NL];7V2
+!s90 ../../ipcore/fast_ram72x512.v|
+!s108 1513401609.367000
+!s107 ../../ipcore/fast_ram72x512.v|
+!s85 0
+!i10b 1
+vfifo_w72_d256
+V2UH`RXI?FFb7Y33cFNK5J3
+r1
+31
+I5fU?o0Sj;dEQB;DGekJ`Y3
+R0
+R12
+8../../ipcore/fifo_w72_d256.v
+F../../ipcore/fifo_w72_d256.v
+R13
+R9
+R8
+!s100 gi88;SYIUPfCe_]Z:hZCz0
+!s90 ../../ipcore/fifo_w72_d256.v|
+!s108 1513401609.719000
+!s107 ../../ipcore/fifo_w72_d256.v|
+!s85 0
+!i10b 1
+vgenerate_for
+!s110 1592550982
+!i10b 1
+!s100 PDnDgF9Q7IDRfJ<c0V;3R2
+I5_Yj4g4E6kM@:VJK0VB8z1
+R1
+R2
+w1592533740
+8../../001_rtl/300_service_layer/sz_mkt_decode/generate_for.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/generate_for.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+vindex_decode
+I:kIk:LZ2Lg?Q[U7i20f9o0
+V5zKjZ6>mKJEzjnHJohk`D3
+R0
+w1511747995
+8../../src/sh_quota/fast/index_decode.v
+F../../src/sh_quota/fast/index_decode.v
+R11
+R9
+r1
+31
+R8
+!s100 8MD0`_9FH]FNIMUz;3fO[2
+!s90 ../../src/sh_quota/fast/index_decode.v|
+!s108 1513401616.112000
+!s107 ../../src/sh_quota/fast/index_decode.v|
+!i10b 1
+!s85 0
+vIndexMarket
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ik7_1AT_[DBHQ;8PNNcUP0
+IZTi5VzB?cI?U`a8FCU=E81
+R2
+Z15 w1540549002
+8../../001_rtl/300_service_layer/sz_mkt_decode/IndexMarket.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/IndexMarket.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+n@index@market
+vLendEtstMkt
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l0nIRWA401;mbKPNz4YP_1
+ICG@M>=0Ic?3dFUHCM@bmd3
+R2
+R15
+8../../001_rtl/300_service_layer/sz_mkt_decode/LendEtstMkt.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/LendEtstMkt.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+n@lend@etst@mkt
+vLendExecMkt
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @4fCETDB=k:P>VEfRNKoR0
+IS<4cOVCgS`7?8hN;cXz_?0
+R2
+R15
+8../../001_rtl/300_service_layer/sz_mkt_decode/LendExecMkt.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/LendExecMkt.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+n@lend@exec@mkt
+vmix_decode
+VNm2[2`=[<4gFi2UP?Y[Ch1
+r1
+31
+ImO2Z>IAG0gDH[QL9[m=X;0
+R0
+R10
+8../../src/sh_quota/fast/mix_decode.v
+F../../src/sh_quota/fast/mix_decode.v
+R11
+R9
+R8
+!s100 @H=Ji6iAbPA0B@lYk7XHf2
+!s90 ../../src/sh_quota/fast/mix_decode.v|
+!s108 1513401613.198000
+!s107 ../../src/sh_quota/fast/mix_decode.v|
+!s85 0
+!i10b 1
+vmkt_analysis
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 o2g17QKN[6e@R<JSP:M>I0
+I7BSWC6cI8S9n9ZY6Q[WnR2
+R2
+Z16 w1590733967
+8../../001_rtl/300_service_layer/sz_mkt_decode/mkt_analysis.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/mkt_analysis.v
+L0 1
+R4
+R5
+R6
+R7
+!i113 0
+R8
+vmkt_app_reg
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ICnQ3=V>1`7o[dM?o3a]k1
+I4bBiP3<Y8`;gH2;coYj^33
+R2
+w1589855177
+8../../001_rtl/300_service_layer/sz_mkt_decode/mkt_app_reg.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/mkt_app_reg.v
+L0 1
+R4
+!s108 1589872134.504000
+!s107 ../../001_rtl/300_service_layer/sz_mkt_decode/mkt_recognize.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_index.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_app_reg.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_analysis.v|../../001_rtl/300_service_layer/sz_mkt_decode/QuotExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/QuotEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/ProExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/ProEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/LendExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/LendEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/IndexMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTradingMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/AfterCloseTradingMarket.v|
+!s90 -reportprogress|300|../../001_rtl/300_service_layer/sz_mkt_decode/AfterCloseTradingMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/AuctionTradingMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/IndexMarket.v|../../001_rtl/300_service_layer/sz_mkt_decode/LendEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/LendExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/ProEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/ProExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/QuotEtstMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/QuotExecMkt.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_analysis.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_app_reg.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_index.v|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_recognize.v|
+!i113 0
+R8
+vmkt_decode
+VeP?5=H7j:D1R6U`dTOfKU2
+r1
+31
+I6Gj7`OF8a1j>T9k37DkB^1
+R0
+R10
+8../../src/sh_quota/fast/mkt_decode.v
+F../../src/sh_quota/fast/mkt_decode.v
+R11
+R9
+R8
+!s100 4K[QogUX^@FgVn4zfFXLg1
+!s90 ../../src/sh_quota/fast/mkt_decode.v|
+!s108 1513401613.535000
+!s107 ../../src/sh_quota/fast/mkt_decode.v|
+!s85 0
+!i10b 1
+vmkt_fifo_w67_d1024
+I[bHEhazaYAckM>kcJlUXb1
+VJM:`17KZjjZfDgl`BIzXX3
+dE:\svn\fpga_v02\sim\sz_quota_sim
+w1514944600
+8../../src/sz_quota/ip/mkt_fifo_w67_d1024.v
+F../../src/sz_quota/ip/mkt_fifo_w67_d1024.v
+R13
+R9
+r1
+31
+R8
+!s100 I7cgTdl7bPQmIf>m0Y6dg1
+!s90 ../../src/sz_quota/ip/mkt_fifo_w67_d1024.v|
+!s108 1515568534.629000
+!s107 ../../src/sz_quota/ip/mkt_fifo_w67_d1024.v|
+!i10b 1
+!s85 0
+vmkt_fifo_w70_d2048
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 f>SKBG;nC[H>`R2QE9i6^3
+IWPd>;SBA>9Q]SK14[h7gY1
+R2
+w1545720350
+8../../001_rtl/../002_ip_cores/001_FIFOs/mkt_fifo_w70_d2048.v
+F../../001_rtl/../002_ip_cores/001_FIFOs/mkt_fifo_w70_d2048.v
+R13
+R4
+!s108 1592807657.510000
+!s107 ../../001_rtl/../002_ip_cores/001_FIFOs/mkt_fifo_w70_d2048.v|
+!s90 -reportprogress|300|../../001_rtl/../002_ip_cores/001_FIFOs/mkt_fifo_w70_d2048.v|
+!i113 0
+R8
+vmkt_fifo_w70_d256
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 YZ=dYg;?A8LP:=mFhgi5X0
+If=H1^D]O5J^J2mQSSQKBD3
+R2
+w1540549027
+8../../001_rtl/../002_ip_cores/001_FIFOs/mkt_fifo_w70_d256.v
+F../../001_rtl/../002_ip_cores/001_FIFOs/mkt_fifo_w70_d256.v
+R13
+R4
+!s108 1592807657.866000
+!s107 ../../001_rtl/../002_ip_cores/001_FIFOs/mkt_fifo_w70_d256.v|
+!s90 -reportprogress|300|../../001_rtl/../002_ip_cores/001_FIFOs/mkt_fifo_w70_d256.v|
+!i113 0
+R8
+vmkt_format
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @TZRWFLB_>ha<njkggWkA0
+INHM7`GDfAI<2^?6]R:RkS1
+R2
+R16
+Z17 8../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format.v
+Z18 F../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format.v
+R3
+R4
+Z19 !s108 1592807658.554000
+Z20 !s107 ../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format.v|
+Z21 !s90 -reportprogress|300|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format.v|
+!i113 0
+R8
+vmkt_format_param
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;]>6UE]m^@nzz`A^b<kOA2
+I2eb?dlO6zL<L0Wk2@m]XP3
+R2
+w1592807575
+8../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_param.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_param.v
+Z22 L0 19
+R4
+!s108 1592807658.199000
+!s107 ../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_param.v|
+!s90 -reportprogress|300|../../001_rtl/300_service_layer/sz_mkt_decode/mkt_format_param.v|
+!i113 0
+R8
+vmkt_index
+!s110 1592550983
+!i10b 1
+!s100 >`2?Yg7fLV<=_`OO7=ZHZ1
+ImPALlz:N4A?5C_9cjU:GX1
+R1
+R2
+R15
+8../../001_rtl/300_service_layer/sz_mkt_decode/mkt_index.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/mkt_index.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+vmkt_recognize
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 d[zVS<[>g5`n4ng6gYVXR2
+I^MA=NkI_5aaCgZi779k0X2
+R2
+w1590999091
+8../../001_rtl/300_service_layer/sz_mkt_decode/mkt_recognize.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/mkt_recognize.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+vProEtstMkt
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 CC@aL@`0zOO@ANWE[d<Df3
+IKkAQMz?65hYEClLl9Z3i]1
+R2
+R15
+8../../001_rtl/300_service_layer/sz_mkt_decode/ProEtstMkt.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/ProEtstMkt.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+n@pro@etst@mkt
+vProExecMkt
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _6L@87LECJ4S@ImT=_PP<0
+IS:dBQ9GabzVmf1KIci4F12
+R2
+R15
+8../../001_rtl/300_service_layer/sz_mkt_decode/ProExecMkt.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/ProExecMkt.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+n@pro@exec@mkt
+vQuotEtstMkt
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Kd37HzkSJIgaZVP<6WQC=0
+I3cRdP8zhP;`Kdk0U>FT3I0
+R2
+R15
+8../../001_rtl/300_service_layer/sz_mkt_decode/QuotEtstMkt.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/QuotEtstMkt.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+n@quot@etst@mkt
+vQuotExecMkt
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3_1d:jL:=?HYVB7aX7@6<0
+I7aYbDFJL3WUD]ojZ3FkTM1
+R2
+R15
+8../../001_rtl/300_service_layer/sz_mkt_decode/QuotExecMkt.v
+F../../001_rtl/300_service_layer/sz_mkt_decode/QuotExecMkt.v
+R3
+R4
+R5
+R6
+R7
+!i113 0
+R8
+n@quot@exec@mkt
+vrd_mem_mux
+VcmYK4I]DK8cj>bdU`nP[z2
+r1
+31
+IGUeFN2>zG`;QS=E8A7iD@3
+R0
+Z23 w1511840045
+8../../src/sh_quota/fast/rd_mem_mux.v
+F../../src/sh_quota/fast/rd_mem_mux.v
+L0 1
+R9
+R8
+!s100 JBTK9>zUzEXFDc4[4XUhh3
+!s90 ../../src/sh_quota/fast/rd_mem_mux.v|
+!s108 1513401615.454000
+!s107 ../../src/sh_quota/fast/rd_mem_mux.v|
+!s85 0
+!i10b 1
+vsh_mkt_out
+VODlV^>omjSOI>M=8Uk=df3
+r1
+31
+IY8o:h5aI`3cVjgV0zhMJY1
+R0
+R23
+8../../src/sh_quota/fast/sh_mkt_out.v
+F../../src/sh_quota/fast/sh_mkt_out.v
+R11
+R9
+R8
+!s100 14XZ4dnHo]338`0`FMH>b2
+!s90 ../../src/sh_quota/fast/sh_mkt_out.v|
+!s108 1513401614.242000
+!s107 ../../src/sh_quota/fast/sh_mkt_out.v|
+!s85 0
+!i10b 1
+vsh_quota
+VH9;bdA>Gom>=^nak7KNOD3
+r1
+31
+I20N3P1^iLK3LMBc9O6^CD1
+R0
+R10
+8../../src/sh_quota/top/sh_quota.v
+F../../src/sh_quota/top/sh_quota.v
+R11
+R9
+R8
+!s100 R[4OiY[8GhkVSV3aWGOkI2
+!s90 ../../src/sh_quota/top/sh_quota.v|
+!s108 1513401617.016000
+!s107 ../../src/sh_quota/top/sh_quota.v|
+!s85 0
+!i10b 1
+vsh_reg
+Vi6W`TYP9jBUWIUaG<?_Sc0
+r1
+31
+I?IWaUff5Z:;`R9AhYi9HL3
+R0
+R10
+8../../src/sh_quota/top/sh_reg.v
+F../../src/sh_quota/top/sh_reg.v
+L0 1
+R9
+R8
+!s100 f`>aGJkj[a4QXH;gHnh:<2
+!s90 ../../src/sh_quota/top/sh_reg.v|
+!s108 1513401616.652000
+!s107 ../../src/sh_quota/top/sh_reg.v|
+!s85 0
+!i10b 1
+vSHMKT_FIFO72X2048
+V0PJl0gB:meGPnIZeG[[0D0
+r1
+31
+IAbCbhjV5MLOiXGzn4Yz7Q2
+R0
+w1508899831
+8../../ipcore/SHMKT_FIFO72X2048.v
+F../../ipcore/SHMKT_FIFO72X2048.v
+R13
+R9
+R8
+n@s@h@m@k@t_@f@i@f@o72@x2048
+!s100 9=NOEhC]S`MQ;R1_imXE^1
+!s90 ../../ipcore/SHMKT_FIFO72X2048.v|
+!s108 1513401608.782000
+!s107 ../../ipcore/SHMKT_FIFO72X2048.v|
+!s85 0
+!i10b 1
+vSHMKT_FIFO72X256
+ViND<mRC>G`Sa;hPkgK>>40
+r1
+31
+IDG8>Z?D;^e_oRzmofZnJO1
+R0
+w1509413325
+8../../ipcore/SHMKT_FIFO72X256.v
+F../../ipcore/SHMKT_FIFO72X256.v
+R13
+R9
+R8
+n@s@h@m@k@t_@f@i@f@o72@x256
+!s100 1Z3_Ac107F2^a58]JemiD2
+!s90 ../../ipcore/SHMKT_FIFO72X256.v|
+!s108 1513401609.067000
+!s107 ../../ipcore/SHMKT_FIFO72X256.v|
+!s85 0
+!i10b 1
+vshmkt_tb
+Z24 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+DXx4 work 16 shmkt_tb_sv_unit 0 22 ]QPEOkF6NSB_J4Li<A]D<0
+Vn6lYKaL6U]D3SY2e3CL]f3
+r1
+31
+IBj@cIKS_hASg@bX?A8JG62
+S1
+R0
+Z25 w1513392787
+Z26 8../../sim/sh_quota_sim/shmkt_tb.sv
+Z27 F../../sim/sh_quota_sim/shmkt_tb.sv
+L0 104
+R9
+Z28 !s108 1513401618.059000
+Z29 !s107 ../../sim/sh_quota_sim/shmkt_tb.sv|
+Z30 !s90 -sv|../../sim/sh_quota_sim/shmkt_tb.sv|
+Z31 o-sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 A^?og3_X7DX7WRPn;diO11
+!s105 shmkt_tb_sv_unit
+!s85 0
+!i10b 1
+Xshmkt_tb_sv_unit
+R24
+V]QPEOkF6NSB_J4Li<A]D<0
+r1
+31
+I]QPEOkF6NSB_J4Li<A]D<0
+S1
+R0
+R25
+R26
+R27
+L0 3
+R9
+R28
+R29
+R30
+R31
+!s100 <iHLA[L33EF5P70o0<^a11
+!s85 0
+!i10b 1
+!i103 1
+vstep2host_dram72x128
+IZ`F]FN=09`]KgE`=UUdN83
+VIW=3mH6<Q_=T5d;;Hh^e03
+R0
+w1513310192
+8../../ipcore/step2host_dram72x128.v
+F../../ipcore/step2host_dram72x128.v
+R13
+R9
+r1
+31
+R8
+!s100 bBZ1m]I;F2Di5WX216RYj3
+!s90 ../../ipcore/step2host_dram72x128.v|
+!s108 1513401610.658000
+!s107 ../../ipcore/step2host_dram72x128.v|
+!i10b 1
+!s85 0
+vstep_analysis
+VOON[nGIn<6hfN[Le4BonN3
+r1
+31
+I]bH@6Tb`6ZM]^dko6]bk73
+R0
+w1513401597
+8../../src/sh_quota/step/step_analysis.v
+F../../src/sh_quota/step/step_analysis.v
+R3
+R9
+R8
+!s90 ../../src/sh_quota/step/step_analysis.v|
+!s100 NAlkUGm^7hBYi8E7ZfT<S1
+!s108 1513401612.423000
+!s107 ../../src/sh_quota/step/step_analysis.v|
+!s85 0
+!i10b 1
+vstep_format
+VG7lf5Dg[4Z>KEjl^Izd5;3
+r1
+31
+I?hc;015=mE00jd7JZ:e0I3
+R0
+w1513327669
+8../../src/sh_quota/step/step_format.v
+F../../src/sh_quota/step/step_format.v
+R3
+R9
+R8
+!s100 Gz?0oZnJFd3;dO[>?KFC_3
+!s90 ../../src/sh_quota/step/step_format.v|
+!s108 1513401611.639000
+!s107 ../../src/sh_quota/step/step_format.v|
+!s85 0
+!i10b 1
+vstep_mkt_format
+VQM<n0SRNmaD[eDoK9E1<71
+r1
+31
+I^WneD3TfMBL5of0U@Q3og2
+R0
+w1513308657
+8../../src/sh_quota/step/step_mkt_format.v
+F../../src/sh_quota/step/step_mkt_format.v
+R3
+R9
+R8
+!s100 5E22[:]<OPDEW=_Z`6Ro53
+!s90 ../../src/sh_quota/step/step_mkt_format.v|
+!s108 1513401612.091000
+!s107 ../../src/sh_quota/step/step_mkt_format.v|
+!s85 0
+!i10b 1
+vstop_bit_decode
+VlU1X9jSZKGZ5^VPhTD4@H3
+r1
+31
+I[cY4B1^[?_Z<0Xg?9:4O_0
+R0
+R10
+8../../src/sh_quota/fast/stop_bit_decode.v
+F../../src/sh_quota/fast/stop_bit_decode.v
+R22
+R9
+R8
+!s100 zC?X;^TcOe_NWW>>GSn9:0
+!s90 ../../src/sh_quota/fast/stop_bit_decode.v|
+!s108 1513401614.675000
+!s107 ../../src/sh_quota/fast/stop_bit_decode.v|
+!s85 0
+!i10b 1
+vszmkt_tb
+Z32 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+DXx4 work 16 szmkt_tb_sv_unit 0 22 _4NU]cn9BAmoTF;jeMG[`0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^j?c?SZ4SRF0@`6UNCKZd1
+IGD]KT`@L1J[ZZdWZdgFUN2
+!s105 szmkt_tb_sv_unit
+S1
+R2
+Z33 w1592557148
+Z34 8./szmkt_tb.sv
+Z35 F./szmkt_tb.sv
+L0 30
+R4
+Z36 !s108 1592807658.911000
+Z37 !s107 ./szmkt_tb.sv|
+Z38 !s90 -reportprogress|300|-sv|./szmkt_tb.sv|
+!i113 0
+R31
+Xszmkt_tb_sv_unit
+R32
+V_4NU]cn9BAmoTF;jeMG[`0
+r1
+!s85 0
+31
+!i10b 1
+!s100 md8U>WB]fT3loXfbJ2Knf3
+I_4NU]cn9BAmoTF;jeMG[`0
+!i103 1
+S1
+R2
+R33
+R34
+R35
+L0 3
+R4
+R36
+R37
+R38
+!i113 0
+R31
+vtype_det
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ik?IO[dWZYW`k^fN_n55G2
+I10m6UT7l7dlYK]azXZOX;3
+R2
+R16
+R17
+R18
+L0 895
+R4
+R19
+R20
+R21
+!i113 0
+R8
+vxml_dram32x1024
+IEWQ^gQQaELi?;ENoh>S120
+VWCSS;3LWN6>>5eaA=Fe?V0
+R0
+R12
+8../../ipcore/xml_dram32x1024.v
+F../../ipcore/xml_dram32x1024.v
+R13
+R9
+r1
+31
+R8
+!s100 CJTOz4K[_Hb0PPX8oa?[@3
+!s90 ../../ipcore/xml_dram32x1024.v|
+!s108 1513401610.021000
+!s107 ../../ipcore/xml_dram32x1024.v|
+!i10b 1
+!s85 0
+vxml_ram32x512
+V9<G9SH1kBDZX=eV7cOHiW0
+r1
+31
+ID:eM1ARAldAOg>]07c]_m2
+R0
+R14
+8../../ipcore/xml_ram32x512.v
+F../../ipcore/xml_ram32x512.v
+R13
+R9
+R8
+!s100 AgzTn6G?dGijJ__:_[jFk3
+!s90 ../../ipcore/xml_ram32x512.v|
+!s108 1513401610.351000
+!s107 ../../ipcore/xml_ram32x512.v|
+!s85 0
+!i10b 1

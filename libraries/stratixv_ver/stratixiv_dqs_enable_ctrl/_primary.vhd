@@ -1,0 +1,44 @@
+library verilog;
+use verilog.vl_types.all;
+entity stratixiv_dqs_enable_ctrl is
+    generic(
+        use_phasectrlin : string  := "true";
+        phase_setting   : integer := 0;
+        delay_buffer_mode: string  := "high";
+        level_dqs_enable: string  := "false";
+        delay_dqs_enable_by_half_cycle: string  := "false";
+        add_phase_transfer_reg: string  := "false";
+        invert_phase    : string  := "false";
+        sim_low_buffer_intrinsic_delay: integer := 350;
+        sim_high_buffer_intrinsic_delay: integer := 175;
+        sim_buffer_delay_increment: integer := 10;
+        lpm_type        : string  := "stratixiv_dqs_enable_ctrl";
+        sim_intrinsic_delay: vl_notype
+    );
+    port(
+        dqsenablein     : in     vl_logic;
+        clk             : in     vl_logic;
+        delayctrlin     : in     vl_logic_vector(5 downto 0);
+        phasectrlin     : in     vl_logic_vector(3 downto 0);
+        enaphasetransferreg: in     vl_logic;
+        phaseinvertctrl : in     vl_logic;
+        devclrn         : in     vl_logic;
+        devpor          : in     vl_logic;
+        dffin           : out    vl_logic;
+        dffextenddqsenable: out    vl_logic;
+        dqsenableout    : out    vl_logic
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of use_phasectrlin : constant is 1;
+    attribute mti_svvh_generic_type of phase_setting : constant is 1;
+    attribute mti_svvh_generic_type of delay_buffer_mode : constant is 1;
+    attribute mti_svvh_generic_type of level_dqs_enable : constant is 1;
+    attribute mti_svvh_generic_type of delay_dqs_enable_by_half_cycle : constant is 1;
+    attribute mti_svvh_generic_type of add_phase_transfer_reg : constant is 1;
+    attribute mti_svvh_generic_type of invert_phase : constant is 1;
+    attribute mti_svvh_generic_type of sim_low_buffer_intrinsic_delay : constant is 1;
+    attribute mti_svvh_generic_type of sim_high_buffer_intrinsic_delay : constant is 1;
+    attribute mti_svvh_generic_type of sim_buffer_delay_increment : constant is 1;
+    attribute mti_svvh_generic_type of lpm_type : constant is 1;
+    attribute mti_svvh_generic_type of sim_intrinsic_delay : constant is 3;
+end stratixiv_dqs_enable_ctrl;
